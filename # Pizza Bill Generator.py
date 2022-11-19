@@ -30,4 +30,31 @@ else:
     pizza = pizza + 0
     print("no extra cheese, no additional charge")
 
+    #if size == "S":
+#    pizza += 15
+#    print("A small pizza will cost $15")
+#elif size == "M":
+#    pizza += 20
+#    print("A small pizza will cost $20")
+# You dont have to finish with a else, you could finish with a elif
+#elif size == "M":
+#    pizza += 20
+#    print("A small pizza will cost $20")
+#else:
+#    pizza += 25
+#    print("A small pizza will cost $25")
+
+
+#if add_pepperoni == "Y":
+#    if size == "S":
+#        pizza += 2
+#    else:
+#        pizza += 3
+# else:
+#    pizza += 0
+
+#if extra_cheese == "Y":
+#    pizza += 1
+
+
 print(f"Your total bill is ${pizza}")
